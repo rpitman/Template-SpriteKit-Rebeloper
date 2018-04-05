@@ -12,6 +12,9 @@
 		EA0F0BF620741694003B1F2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0F0BF420741694003B1F2C /* Main.storyboard */; };
 		EA0F0BF820741695003B1F2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0F0BF720741695003B1F2C /* Assets.xcassets */; };
 		EA0F0BFB20741695003B1F2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0F0BF920741695003B1F2C /* LaunchScreen.storyboard */; };
+		EA0F0C0320741B99003B1F2C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0F0C0220741B99003B1F2C /* GameViewController.swift */; };
+		EA18ABC520769FF600CE816A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA18ABC420769FF600CE816A /* Extension.swift */; };
+		EA18ABC72076A37E00CE816A /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA18ABC62076A37E00CE816A /* MainMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		EA0F0BF720741695003B1F2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA0F0BFA20741695003B1F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA0F0BFC20741695003B1F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0F0C0220741B99003B1F2C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EA18ABC420769FF600CE816A /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		EA18ABC62076A37E00CE816A /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				EA0F0BF020741694003B1F2C /* AppDelegate.swift */,
 				EA0F0BF220741694003B1F2C /* ViewController.swift */,
+				EA0F0C0220741B99003B1F2C /* GameViewController.swift */,
 				EA0F0BF420741694003B1F2C /* Main.storyboard */,
 				EA0F0BF720741695003B1F2C /* Assets.xcassets */,
 				EA0F0BF920741695003B1F2C /* LaunchScreen.storyboard */,
 				EA0F0BFC20741695003B1F2C /* Info.plist */,
+				EA18ABC420769FF600CE816A /* Extension.swift */,
+				EA18ABC62076A37E00CE816A /* MainMenu.swift */,
 			);
 			path = "Template SpriteKit Rebeloper";
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA18ABC72076A37E00CE816A /* MainMenu.swift in Sources */,
 				EA0F0BF320741694003B1F2C /* ViewController.swift in Sources */,
+				EA0F0C0320741B99003B1F2C /* GameViewController.swift in Sources */,
 				EA0F0BF120741694003B1F2C /* AppDelegate.swift in Sources */,
+				EA18ABC520769FF600CE816A /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
